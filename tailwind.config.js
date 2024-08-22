@@ -15,6 +15,9 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            boxShadow: {
+                'yellow-lg': '1px 1px rgba(255, 255, 0, 0.6)', // Custom yellow shadow for hover
+            },
         },
     },
 
