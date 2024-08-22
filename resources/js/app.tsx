@@ -4,10 +4,6 @@ import Layout from './Layout/Layout';
 
 createInertiaApp({
     resolve: name => import(`./Pages/${name}`).then(module => module.default),
-    // setup({ el, App, props }) {
-    //     const root = createRoot(el);  //  Root.
-    //     root.render(<App {...props} />);  // Render app to the root.
-    // },
     setup({ el, App, props }) {
         const root = createRoot(el);  // Create root
         root.render(
